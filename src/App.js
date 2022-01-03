@@ -3,7 +3,6 @@ import Routing from './components/Routing';
 
 import './styles/App.scss';
 
-// master branch comment
 export default function App() {
   return (
     <div className="App w-100 px-3 py-2">
