@@ -9,7 +9,18 @@ export default function App() {
   return (
     <div className="App w-100 px-3 py-2">
       <Navigation />
+      <LocalRepoFunction />
       <Routing />
     </div>
   );
+}
+
+function LocalRepoFunction() {
+  console.log('this is my local function')
+
+  return (
+    <div>
+      That is a talking with my self.
+    </div>
+  )
 }
