@@ -2,7 +2,7 @@ import Navigation from './components/Nav';
 import Routing from './components/Routing';
 
 import './styles/App.scss';
-
+// Hello Git this is test merge for empty line (check for conflicts)
 // Just added comment for merging
 // New comment to merge
 export default function App() {
