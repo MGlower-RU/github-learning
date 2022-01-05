@@ -10,6 +10,17 @@ export default function App() {
     <div className="App w-100 px-3 py-2">
       <Navigation />
       <Routing />
+      <RemoteRepoFunction />
     </div>
   );
+}
+
+function RemoteRepoFunction() {
+  console.log('that function was sent to remote by another writer')
+
+  return (
+    <div>
+      Hello my lonely friend.
+    </div>
+  )
 }
