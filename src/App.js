@@ -5,6 +5,7 @@ import './styles/App.scss';
 // Hello Git this is test merge for empty line (check for conflicts)
 // Just added comment for merging
 // New comment to merge
+// Upstream track
 export default function App() {
   return (
     <div className="App w-100 px-3 py-2">
